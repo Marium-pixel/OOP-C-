@@ -1,5 +1,4 @@
 #include <iostream>
- //You are required to write a C++ program that will creates a function named unique that will take arrayas input . the array may contains the duplicates values but you have to process on the array and have toreturn the array which must contains only unique values not duplicates.
 
 using namespace std;
  

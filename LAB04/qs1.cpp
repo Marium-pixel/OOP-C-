@@ -35,9 +35,13 @@ public:
         grade = 'N';
     }
  
-    void promoteStudent() {
-        cout << "Enter the new grade of the student: ";
-        cin >> grade;
+   void promoteStudent() {
+        if (grade > 'A' && grade <= 'D') {
+            grade--;
+            cout << name << " has been promoted to grade " << grade << "\n";
+        } else {
+            cout << name << " cannot be promoted further.\n";
+        }
     }
  
     void isEligibleForScholarship() {

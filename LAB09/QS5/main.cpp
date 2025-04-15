@@ -15,3 +15,4 @@ int main() {
 
     return 0;
 }
+// command to run g++ -o fitnessapp main.cpp Cycling.cpp Running.cpp,./fitnessapp
